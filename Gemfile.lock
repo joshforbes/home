@@ -70,6 +70,9 @@ GEM
       servolux
       tilt (~> 2.0.9)
       uglifier (~> 3.0)
+    middleman-syntax (3.0.0)
+      middleman-core (>= 3.2)
+      rouge (~> 2.0)
     minitest (5.11.3)
     padrino-helpers (0.13.3.4)
       i18n (~> 0.6, >= 0.6.7)
@@ -85,6 +88,7 @@ GEM
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     redcarpet (3.4.0)
+    rouge (2.2.1)
     sassc (2.0.1)
       ffi (~> 1.9)
       rake
@@ -105,6 +109,7 @@ DEPENDENCIES
   builder (~> 3.0)
   middleman (~> 4.1)
   middleman-blog
+  middleman-syntax
   redcarpet (~> 3.3, >= 3.3.3)
   tzinfo-data
   wdm (~> 0.1.0)

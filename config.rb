@@ -22,6 +22,9 @@ page '/*.txt', layout: false
   ###
 
 activate :directory_indexes
+activate :syntax
+
+set :markdown, input: "GFM"
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
